@@ -1,0 +1,18 @@
+# Dependencias (por ejemplo, si usas Composer en PHP o Node.js)
+vendor/
+node_modules/
+
+# Archivos de configuración sensibles
+*.env
+
+# Archivos generados por el sistema operativo o IDEs
+.DS_Store
+.idea/
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Caché o datos temporales
+cache/
+*.tmp

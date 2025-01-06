@@ -1,0 +1,24 @@
+{
+    "name": "capon/investments",
+    "description": "proyecto de inversiones",
+    "type": "library",
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "license": "MIT",
+"autoload": {
+    "psr-4": {
+        "Capon\\Investments\\": "src/",
+        "Capon\\Investments\\API\\": "src/API/",
+        "Capon\\Investments\\Logic\\": "src/Logic/"
+    }
+    },
+    "authors": [
+        {
+            "name": "Alejandro Capone",
+            "email": "capone.alejandro@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
